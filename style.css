@@ -39,12 +39,20 @@ body {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
+    padding: 5px 0;
+    position: relative;
     width: 100%;
     bottom: 0;
   }
   
+  img {
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    display: block; /* Ensures images don't have extra space below */
+    margin: 10px auto; /* Centers the image and adds spacing */
+  }
 
   .home-main {
     padding: 20px;

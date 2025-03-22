@@ -11,7 +11,7 @@
   <header>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="home.html">Home</a></li>
         <li><a href="products.html">Products</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
@@ -22,23 +22,27 @@
     <h1>Our Products</h1>
     <div class="grid-container">
       <div class="grid-item">
-        <img src="https://via.placeholder.com/200" alt="Product 1">
+        <img src="img_products/AIR+MAX+DN8.png" alt="Product 1">
         <p>Product 1 - $19.99</p>
+        <button onclick="addToCart()">Add to Cart</button>
       </div>
       <div class="grid-item">
-        <img src="https://via.placeholder.com/200" alt="Product 2">
+        <img src="img_products/NIKE+AIR+MAX+1+ESS.png" alt="Product 2">
         <p>Product 2 - $29.99</p>
+        <button onclick="addToCart()">Add to Cart</button>
       </div>
       <div class="grid-item">
-        <img src="https://via.placeholder.com/200" alt="Product 3">
+        <img src="img_products/W+NIKE+BLAZER+ROAM+MID.png" alt="Product 3">
         <p>Product 3 - $39.99</p>
+        <button onclick="addToCart()">Add to Cart</button>
       </div>
       <div class="grid-item">
-        <img src="https://via.placeholder.com/200" alt="Product 4">
+        <img src="img_products/W+NIKE+FREE+METCON+6.png" alt="Product 4">
         <p>Product 4 - $49.99</p>
+        <button onclick="addToCart()">Add to Cart</button>
       </div>
     </div>
-    <button onclick="showAlert()">Add to Cart</button>
+    <p id="cart-message"></p>
   </main>
 
   <footer>
